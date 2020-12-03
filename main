@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+
+int main() {
+    int i, salary = 10, sum;
+    
+    for(i = 1; i <= 15; i++)
+    {
+        printf("\nday %d salary is %d",i,salary);
+        salary *= 2;
+        sum += salary;
+    }printf("\ntotal sum is %d", sum);
+ 
+        
+    
+    return 0;
+}
